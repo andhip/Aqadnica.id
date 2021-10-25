@@ -740,39 +740,6 @@ th {
   line-height: 1;
 }
 
-/* Down Arrow Icon for Megamenu */
-.icon-dope-nav-down-arrow {
-  font-family: "FontAwesome";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-dope-nav-down-arrow:before {
-  content: "\f107";
-}
-
-.dopenav ul li.megamenu-item > a:after,
-.dopenav ul li.has-down > a:after {
-  font-family: "FontAwesome";
-  content: "\f107";
-  font-size: 12px;
-  color: #000000;
-  padding-left: 5px;
-  -webkit-transition-duration: 500ms;
-  -o-transition-duration: 500ms;
-  transition-duration: 500ms;
-}
-
-.breakpoint-on .dopenav ul li.megamenu-item > a:after,
-.breakpoint-on .dopenav ul li.has-down > a:after {
-  color: #fff;
-}
-
 .dopenav ul li ul li.has-down > a::after {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -1214,6 +1181,11 @@ th {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.feature-wrap .single-feature {
+  -o-transition: 0.3s all ease !important;
+  transition: 0.3s all ease !important;
+  -webkit-transition: 0.3s all ease !important;
+}
 .features-wrap .single-feature:hover {
   background: -webkit-gradient(
     linear,
@@ -1350,6 +1322,10 @@ th {
   color: #222;
   font-weight: 400;
 }
+.testimonial-section .single-testimonial {
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
 .testimonial-section .single-testimonial .img-wrap {
   margin-right: 20px;
 }
@@ -1384,105 +1360,6 @@ th {
 }
 .testimonial-section .owl-dots .owl-dot:focus {
   outline: none;
-}
-
-.screenshot-section {
-  background: #eee;
-}
-.screenshot-section .owl-nav {
-  text-align: center;
-  margin-top: 40px;
-}
-.screenshot-section .owl-nav .owl-next,
-.screenshot-section .owl-nav .owl-prev {
-  font-size: 30px !important;
-}
-.screenshot-section .owl-nav .owl-next:focus,
-.screenshot-section .owl-nav .owl-prev:focus {
-  outline: none;
-}
-
-.bg-color-blue {
-  background-color: #2a7af3;
-}
-
-.screenshot_slider .owl-stage .owl-item .item img {
-  -webkit-transition: 0.3s;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  -webkit-transform: scale(0.85);
-  -ms-transform: scale(0.85);
-  transform: scale(0.85);
-}
-
-.screenshot_slider .owl-carousel .owl-item img {
-  width: auto;
-  max-width: 100%;
-}
-
-.screenshot_slider .owl-stage .owl-item.center .item img {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-.screenshot_slider .owl-item {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.screenshot_slider .owl-controls .owl-prev,
-.testimonial-caroussel .owl-controls .owl-prev,
-.screenshot_slider .owl-controls .owl-next,
-.testimonial-caroussel .owl-controls .owl-next {
-  -webkit-box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0);
-  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0);
-  color: #fff;
-  height: 40px;
-  left: 0;
-  line-height: 3;
-  margin: 0 5px;
-  position: absolute;
-  text-align: center;
-  bottom: -16%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  width: 40px;
-  z-index: 9;
-}
-
-.screenshot_slider .owl-controls .owl-prev:hover,
-.testimonial-caroussel .owl-prev:hover,
-.screenshot_slider .owl-controls .owl-next:hover,
-.testimonial-caroussel .owl-next:hover {
-  border-color: #fff;
-  color: #ffffff;
-}
-
-.screenshot_slider .owl-controls .owl-prev span,
-.testimonial-caroussel .owl-controls .owl-prev span,
-.screenshot_slider .owl-controls .owl-next span,
-.testimonial-caroussel .owl-controls .owl-next span {
-  font-size: 28px;
-}
-
-.screenshot_slider .owl-controls .owl-next {
-  left: auto;
-  right: 45%;
-  font-size: 30px;
-}
-
-.screenshot_slider .owl-controls .owl-prev {
-  right: auto;
-  left: 45%;
-  font-size: 30px;
 }
 
 /* =================================== */
