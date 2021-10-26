@@ -1449,6 +1449,40 @@ th {
 }
 
 /* =================================== */
+/*  Alur-Section Styles 
+/* =================================== */
+.alur-section {
+  padding: 5rem;
+  text-align: center;
+}
+.alur-section .item-pemesanan img {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.alur-section .item-pemesanan p {
+  margin-top: 5px;
+  padding-bottom: 1rem;
+}
+.alur-section .item-pemesanan:hover {
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.178);
+  transition: 0.3s all ease;
+  border-radius: 8px;
+}
+/* 
+@media screen (max-width: 560px) {
+  .alur-section .item-pemesanan:hover {
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.178);
+    transition: 0.3s all ease;
+    text-align: center;
+  }
+  .alur-section .item-pemesanan img {
+    text-align: center;
+    width: 150px;
+  }
+} */
+
+/* =================================== */
 /*  Team Styles 
 /* =================================== */
 .team-section {
